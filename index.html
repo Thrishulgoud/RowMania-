@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RowMania</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>RowMania</h1>
+    <div id="status">Player X's Turn</div>
+    <div class="board" id="board"></div>
+
+    <div class="controls">
+      <button onclick="restartGame()">Restart Game</button>
+      <button onclick="newGame()">New Game</button>
+    </div>
+
+    <div class="scoreboard">
+      <p>Player X Wins: <span id="scoreX">0</span></p>
+      <p>Player O Wins: <span id="scoreO">0</span></p>
+      <p>Draws: <span id="draws">0</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
